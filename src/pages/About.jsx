@@ -1,8 +1,10 @@
 import React from 'react';
 import image from '../pages/panel.webp';
+import Contact from './Contact';
 
 const About = () => {
   return (
+    <>
     <div className='flex justify-center items-center gap-6 m-10'>
       <div className='flex flex-col gap-4 justify-center items-center'>
         <h1 className='font-bold text-2xl text-red-900'>About Us Page</h1>
@@ -29,6 +31,9 @@ const About = () => {
         <img src={image} alt='' />
       </div>
     </div>
+    
+    </>
+
   );
 };
 
