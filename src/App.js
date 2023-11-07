@@ -2,6 +2,7 @@
 import Hero from "./components/Hero";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Profile from "./pages/Profile";
 import Service from "./pages/Service";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Contact />
       <Service />
+      <Profile />
 
     </>
   );

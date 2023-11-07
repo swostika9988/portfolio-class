@@ -23,6 +23,7 @@ const Header = () => {
           <Link to="/about" className={`font-semibold text-md text-red-500 hover:text-red-950m hover:border-b-2 border-red-500 ${isActive("/about")}`} >About</Link>
           <Link to="/service" className={`font-semibold text-md text-red-500 hover:text-red-950m hover:border-b-2 border-red-500 ${isActive("/service")}`}>Service</Link>
           <Link to="/contact" className={`font-semibold text-md text-red-500 hover:text-red-950m hover:border-b-2 border-red-500 ${isActive("/contact")}`}>Contact</Link>
+          <Link to="/profile" className={`font-semibold text-md text-red-500 hover:text-red-950m hover:border-b-2 border-red-500 ${isActive("/profile")}`}>Profile</Link>
         </div>
 
       </nav>
@@ -46,6 +47,8 @@ const Header = () => {
           <Link to="/about">About</Link>
           <Link to="/service">Service</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/profile">Profile</Link>
+          
         </div>
       )}
 
